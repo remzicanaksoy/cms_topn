@@ -400,7 +400,7 @@ UpdateSketchInPlace(CmsTopn *cmsTopn, Datum newItem,
 	 * hashing literature for the additional hash functions of the form
 	 * g(x) = h1(x) + i * h2(x) and does not hurt the independence between hash
 	 * function. For more information you can check this paper:
-	 * http://www.eecs.harvard.edu/~kirsch/pubs/bbbf/esa06.pdf
+	 * https://www.eecs.harvard.edu/~michaelm/postscripts/tr-02-05.pdf
 	 */
 	for (hashIndex = 0; hashIndex < cmsTopn->sketchDepth; hashIndex++)
 	{
